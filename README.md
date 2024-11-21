@@ -101,7 +101,7 @@ from scipy.spatial import distance
 import kmeans
 import pandas as pd
 from matplotlib.image import imread
----
+```
 
 ### 2. Load Your Data
 
@@ -166,7 +166,7 @@ print(flattened_image.shape)
 Now that you have your data prepared, it's time to initialize the **K-Means** class, where you'll specify the number of clusters (k) and apply the algorithm to your data.
 
 #### For Numerical Data:
----
+```
 # Create an instance of the KMeans class with the input data
 cluster = kmeans.KMeans(your_data)
 
